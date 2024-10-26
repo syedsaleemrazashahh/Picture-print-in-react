@@ -1,0 +1,9 @@
+.style-container {
+  border: 2px solid red;
+  width: 400;
+  margin: auto;
+}
+
+.style-photo {
+  width: 100%;
+}
