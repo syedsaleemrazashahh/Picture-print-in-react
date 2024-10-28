@@ -1,9 +1,48 @@
 .style-container {
   border: 2px solid red;
-  width: 400;
+  width: 400px;
   margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid rgb(17, 17, 17);
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 2%;
+  box-shadow: 12px 4px 20px #020202;
+}
+body {
+  margin: 2px;
+  padding: 2px;
+  font-family: Arial, sans-serif;
+  background-color: #fffbfb;
 }
 
+.dp {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
 .style-photo {
-  width: 100%;
+  width: 80%;
+
+  display: flex;
+  margin-left: 10%;
+}
+.style-header {
+}
+
+.style-user-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.mr {
+  margin-left: -35%;
+}
+.style-icons {
+  display: flex;
+  justify-content: space-around;
+  margin: 1%;
 }
